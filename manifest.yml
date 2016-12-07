@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PCS-JavaApp002
+  host: PCS-JavaApp002
+  disk_quota: 1024M
+  services:
+  - PCS-JavaApp002-cloudantNoSQLDB
